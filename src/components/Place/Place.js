@@ -9,9 +9,7 @@ const Place = (props) => {
 
   return (
     <div className="Place">
-      <div className="place-image">
-        <img src={photo} alt="Place" />
-      </div>
+      <div className="place-image" style={{ backgroundImage: `url(${photo})` }} />
       <div className="place-info">
         { superHost ? <div className="place-super">Super Host</div> : '' }
         <div className="place-type">

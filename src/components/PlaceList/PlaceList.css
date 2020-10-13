@@ -8,7 +8,7 @@
 .list-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: baseline;
   margin-top: 60px;
   margin-bottom: 15px;
 }
@@ -30,4 +30,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media(max-width: 768px) {
+  .list-header {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .main-title {
+    font-size: 18px;
+  }
 }
