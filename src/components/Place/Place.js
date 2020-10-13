@@ -3,8 +3,6 @@ import './Place.css';
 
 const Place = (props) => {
 
-  console.log(props.place)
-
   const { superHost, title, rating, photo, beds, type } = props.place;
 
   return (
